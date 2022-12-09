@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">SensorRecorder</string>
+    <string name="sensor_info">Sensor Information</string>
+    <string name="file_name">file_name</string>
+    <string name="start">Start</string>
+    <string name="stop">Stop &amp; Save</string>
+    <string name="x">X</string>
+    <string name="y">Y</string>
+    <string name="z">Z</string>
+    <string name="tv_accelerometer">3-axis accelerometer sensor (m/s^2)</string>
+    <string name="tv_linear_accelerometer">3-axis linear acceleration sensor (m/s^2)</string>
+    <string name="tv_orientation">3-axis orientation sensor</string>
+    <string name="tv_gyroscope">3-axis gyroscope sensor (rad/s)</string>
+    <string name="tv_magnetic">3-axis magnetic-field sensor (μT)</string>
+    <string name="x_axis">X-axis</string>
+    <string name="y_axis">Y-axis</string>
+    <string name="z_axis">Z-axis</string>
+    <string name="Azimuth">Azimuth</string>
+    <string name="Pitch">Pitch</string>
+    <string name="Roll">Roll</string>
+</resources>

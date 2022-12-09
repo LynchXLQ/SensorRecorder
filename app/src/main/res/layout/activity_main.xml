@@ -1,0 +1,511 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:orientation="vertical">
+
+<LinearLayout
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/sensor_info"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/sensor_info" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/tv_accelerometer"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:gravity="center"
+            android:padding="5dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/x_axis"
+                android:textColor="@color/black"
+                android:textSize="15sp"
+                android:gravity="center"
+                android:padding="5dp"/>
+
+            <TextView
+                android:id="@+id/tv_accelerometer_x_result"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textColor="@color/black"
+                android:textSize="15sp"
+                android:gravity="center"
+                android:padding="5dp"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/y_axis"
+                android:textColor="@color/black"
+                android:textSize="15sp"
+                android:gravity="center"
+                android:padding="5dp"/>
+
+            <TextView
+                android:id="@+id/tv_accelerometer_y_result"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textColor="@color/black"
+                android:textSize="15sp"
+                android:gravity="center"
+                android:padding="5dp"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/z_axis"
+                android:textColor="@color/black"
+                android:textSize="15sp"
+                android:gravity="center"
+                android:padding="5dp"/>
+
+            <TextView
+                android:id="@+id/tv_accelerometer_z_result"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textColor="@color/black"
+                android:textSize="15sp"
+                android:gravity="center"
+                android:padding="5dp"/>
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/tv_linear_accelerometer"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:gravity="center"
+            android:padding="5dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/x_axis"
+                android:textColor="@color/black"
+                android:textSize="15sp"
+                android:gravity="center"
+                android:padding="5dp"/>
+
+            <TextView
+                android:id="@+id/tv_linear_acceleration_x_result"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textColor="@color/black"
+                android:textSize="15sp"
+                android:gravity="center"
+                android:padding="5dp"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/y_axis"
+                android:textColor="@color/black"
+                android:textSize="15sp"
+                android:gravity="center"
+                android:padding="5dp"/>
+
+            <TextView
+                android:id="@+id/tv_linear_acceleration_y_result"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textColor="@color/black"
+                android:textSize="15sp"
+                android:gravity="center"
+                android:padding="5dp"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/z_axis"
+                android:textColor="@color/black"
+                android:textSize="15sp"
+                android:gravity="center"
+                android:padding="5dp"/>
+
+            <TextView
+                android:id="@+id/tv_linear_acceleration_z_result"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textColor="@color/black"
+                android:textSize="15sp"
+                android:gravity="center"
+                android:padding="5dp"/>
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/tv_gyroscope"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:gravity="center"
+            android:padding="5dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/x_axis"
+                android:textColor="@color/black"
+                android:textSize="15sp"
+                android:gravity="center"
+                android:padding="5dp"/>
+
+            <TextView
+                android:id="@+id/tv_gyroscope_x_result"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textColor="@color/black"
+                android:textSize="15sp"
+                android:gravity="center"
+                android:padding="5dp"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/y_axis"
+                android:textColor="@color/black"
+                android:textSize="15sp"
+                android:gravity="center"
+                android:padding="5dp"/>
+
+            <TextView
+                android:id="@+id/tv_gyroscope_y_result"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textColor="@color/black"
+                android:textSize="15sp"
+                android:gravity="center"
+                android:padding="5dp"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/z_axis"
+                android:textColor="@color/black"
+                android:textSize="15sp"
+                android:gravity="center"
+                android:padding="5dp"/>
+
+            <TextView
+                android:id="@+id/tv_gyroscope_z_result"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textColor="@color/black"
+                android:textSize="15sp"
+                android:gravity="center"
+                android:padding="5dp"/>
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/tv_magnetic"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:gravity="center"
+            android:padding="5dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/x_axis"
+                android:textColor="@color/black"
+                android:textSize="15sp"
+                android:gravity="center"
+                android:padding="5dp"/>
+
+            <TextView
+                android:id="@+id/tv_magnetic_x_result"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textColor="@color/black"
+                android:textSize="15sp"
+                android:gravity="center"
+                android:padding="5dp"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/y_axis"
+                android:textColor="@color/black"
+                android:textSize="15sp"
+                android:gravity="center"
+                android:padding="5dp"/>
+
+            <TextView
+                android:id="@+id/tv_magnetic_y_result"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textColor="@color/black"
+                android:textSize="15sp"
+                android:gravity="center"
+                android:padding="5dp"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/z_axis"
+                android:textColor="@color/black"
+                android:textSize="15sp"
+                android:gravity="center"
+                android:padding="5dp"/>
+
+            <TextView
+                android:id="@+id/tv_magnetic_z_result"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textColor="@color/black"
+                android:textSize="15sp"
+                android:gravity="center"
+                android:padding="5dp"/>
+        </LinearLayout>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/tv_orientation"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:gravity="center"
+            android:padding="5dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:padding="5dp"
+                android:text="@string/Azimuth"
+                android:textColor="@color/black"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/tv_orientation_Azimuth_result"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textColor="@color/black"
+                android:textSize="15sp"
+                android:gravity="center"
+                android:padding="5dp"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/Pitch"
+                android:textColor="@color/black"
+                android:textSize="15sp"
+                android:gravity="center"
+                android:padding="5dp"/>
+
+            <TextView
+                android:id="@+id/tv_orientation_Pitch_result"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textColor="@color/black"
+                android:textSize="15sp"
+                android:gravity="center"
+                android:padding="5dp"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/Roll"
+                android:textColor="@color/black"
+                android:textSize="15sp"
+                android:gravity="center"
+                android:padding="5dp"/>
+
+            <TextView
+                android:id="@+id/tv_orientation_Roll_result"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textColor="@color/black"
+                android:textSize="15sp"
+                android:gravity="center"
+                android:padding="5dp"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/et_file"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:text="@string/file_name"
+        android:autofillHints=""
+        android:inputType="text" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:layout_marginBottom="50dp">
+
+        <Button
+            android:id="@+id/bt_start"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:text="@string/start" />
+
+        <Space
+            android:layout_width="100dp"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:id="@+id/bt_stop"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:text="@string/stop" />
+    </LinearLayout>
+</LinearLayout>
+</ScrollView>
